@@ -1,2 +1,0 @@
-#set($e="e")
-$e.getClass().forName("java.lang.Runtime").getRuntime().exec("/bin/echo xx ../../x.txt",null,null).toString();
