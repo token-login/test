@@ -1,3 +1,0 @@
-$action.getGlobalSettings().getBackupPath()
-$action.getBootstrapManager()
-
