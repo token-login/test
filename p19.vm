@@ -1,3 +1,0 @@
-$action.getBootstrapManager().getWebAppContextPath()
-$req.getSession().getServletContext().getRealPath("/");
-
