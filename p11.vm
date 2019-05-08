@@ -1,3 +1,5 @@
 $action.getBootstrapManager().getWebAppContextPath()
 $action.getGlobalSettings().getBaseUrl()
 $action.getGlobalSettings()
+$req.contextPath
+$action.getBootstrapManager()
