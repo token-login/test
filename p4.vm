@@ -1,0 +1,2 @@
+$req.getContextPath()
+$baseurl
