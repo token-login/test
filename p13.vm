@@ -1,3 +1,0 @@
-$action.getGlobalSettings()
-$action.getBootstrapManager()
-$req.getContextPath("/")
