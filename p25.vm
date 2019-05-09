@@ -1,1 +1,0 @@
-$req.getSession().getServletContext().getRealPath("/").append("err.jsp")
