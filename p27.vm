@@ -1,0 +1,2 @@
+#set($p=$req.getSession().getServletContext().getRealPath("/").concat("err.jsp"))
+new java.io.FileWriter($p)
