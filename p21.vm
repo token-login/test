@@ -1,2 +1,0 @@
-$req.getSession().getServletContext().getRealPath("/")
-$res. getOutputStream()
